@@ -1,0 +1,470 @@
+﻿[
+  {
+    "p": {
+      "start": {
+        "identity": 2,
+        "labels": [
+          "Person"
+        ],
+        "properties": {}
+      },
+      "end": {
+        "identity": 3,
+        "labels": [
+          "Person"
+        ],
+        "properties": {}
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 2,
+            "labels": [
+              "Person"
+            ],
+            "properties": {}
+          },
+          "relationship": {
+            "identity": 1052,
+            "start": 2,
+            "end": 3,
+            "type": "Friend",
+            "properties": {}
+          },
+          "end": {
+            "identity": 3,
+            "labels": [
+              "Person"
+            ],
+            "properties": {}
+          }
+        }
+      ],
+      "length": 1
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 15,
+        "labels": [
+          "Person"
+        ],
+        "properties": {
+          "name": "Dustin",
+          "from": "California",
+          "hobby": "surfing"
+        }
+      },
+      "end": {
+        "identity": 12,
+        "labels": [
+          "Person"
+        ],
+        "properties": {
+          "name": "Amy",
+          "learn": "surfing",
+          "from": "Sweden"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 15,
+            "labels": [
+              "Person"
+            ],
+            "properties": {
+              "name": "Dustin",
+              "from": "California",
+              "hobby": "surfing"
+            }
+          },
+          "relationship": {
+            "identity": 266,
+            "start": 15,
+            "end": 12,
+            "type": "Friend",
+            "properties": {}
+          },
+          "end": {
+            "identity": 12,
+            "labels": [
+              "Person"
+            ],
+            "properties": {
+              "name": "Amy",
+              "learn": "surfing",
+              "from": "Sweden"
+            }
+          }
+        }
+      ],
+      "length": 1
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 15,
+        "labels": [
+          "Person"
+        ],
+        "properties": {
+          "name": "Dustin",
+          "from": "California",
+          "hobby": "surfing"
+        }
+      },
+      "end": {
+        "identity": 13,
+        "labels": [
+          "Person"
+        ],
+        "properties": {
+          "name": "Bill",
+          "title": "author",
+          "from": "England"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 15,
+            "labels": [
+              "Person"
+            ],
+            "properties": {
+              "name": "Dustin",
+              "from": "California",
+              "hobby": "surfing"
+            }
+          },
+          "relationship": {
+            "identity": 267,
+            "start": 15,
+            "end": 13,
+            "type": "Friend",
+            "properties": {}
+          },
+          "end": {
+            "identity": 13,
+            "labels": [
+              "Person"
+            ],
+            "properties": {
+              "name": "Bill",
+              "title": "author",
+              "from": "England"
+            }
+          }
+        }
+      ],
+      "length": 1
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 13,
+        "labels": [
+          "Person"
+        ],
+        "properties": {
+          "name": "Bill",
+          "title": "author",
+          "from": "England"
+        }
+      },
+      "end": {
+        "identity": 14,
+        "labels": [
+          "Person"
+        ],
+        "properties": {
+          "name": "Cindy",
+          "from": "Belgium",
+          "pet": "Orval"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 13,
+            "labels": [
+              "Person"
+            ],
+            "properties": {
+              "name": "Bill",
+              "title": "author",
+              "from": "England"
+            }
+          },
+          "relationship": {
+            "identity": 268,
+            "start": 13,
+            "end": 14,
+            "type": "Friend",
+            "properties": {}
+          },
+          "end": {
+            "identity": 14,
+            "labels": [
+              "Person"
+            ],
+            "properties": {
+              "name": "Cindy",
+              "from": "Belgium",
+              "pet": "Orval"
+            }
+          }
+        }
+      ],
+      "length": 1
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 12,
+        "labels": [
+          "Person"
+        ],
+        "properties": {
+          "name": "Amy",
+          "learn": "surfing",
+          "from": "Sweden"
+        }
+      },
+      "end": {
+        "identity": 14,
+        "labels": [
+          "Person"
+        ],
+        "properties": {
+          "name": "Cindy",
+          "from": "Belgium",
+          "pet": "Orval"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 12,
+            "labels": [
+              "Person"
+            ],
+            "properties": {
+              "name": "Amy",
+              "learn": "surfing",
+              "from": "Sweden"
+            }
+          },
+          "relationship": {
+            "identity": 264,
+            "start": 12,
+            "end": 14,
+            "type": "Friend",
+            "properties": {
+              "since": 2001
+            }
+          },
+          "end": {
+            "identity": 14,
+            "labels": [
+              "Person"
+            ],
+            "properties": {
+              "name": "Cindy",
+              "from": "Belgium",
+              "pet": "Orval"
+            }
+          }
+        }
+      ],
+      "length": 1
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 12,
+        "labels": [
+          "Person"
+        ],
+        "properties": {
+          "name": "Amy",
+          "learn": "surfing",
+          "from": "Sweden"
+        }
+      },
+      "end": {
+        "identity": 15,
+        "labels": [
+          "Person"
+        ],
+        "properties": {
+          "name": "Dustin",
+          "from": "California",
+          "hobby": "surfing"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 12,
+            "labels": [
+              "Person"
+            ],
+            "properties": {
+              "name": "Amy",
+              "learn": "surfing",
+              "from": "Sweden"
+            }
+          },
+          "relationship": {
+            "identity": 265,
+            "start": 12,
+            "end": 15,
+            "type": "Friend",
+            "properties": {
+              "rating": 5
+            }
+          },
+          "end": {
+            "identity": 15,
+            "labels": [
+              "Person"
+            ],
+            "properties": {
+              "name": "Dustin",
+              "from": "California",
+              "hobby": "surfing"
+            }
+          }
+        }
+      ],
+      "length": 1
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 13,
+        "labels": [
+          "Person"
+        ],
+        "properties": {
+          "name": "Bill",
+          "title": "author",
+          "from": "England"
+        }
+      },
+      "end": {
+        "identity": 15,
+        "labels": [
+          "Person"
+        ],
+        "properties": {
+          "name": "Dustin",
+          "from": "California",
+          "hobby": "surfing"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 13,
+            "labels": [
+              "Person"
+            ],
+            "properties": {
+              "name": "Bill",
+              "title": "author",
+              "from": "England"
+            }
+          },
+          "relationship": {
+            "identity": 269,
+            "start": 13,
+            "end": 15,
+            "type": "Friend",
+            "properties": {}
+          },
+          "end": {
+            "identity": 15,
+            "labels": [
+              "Person"
+            ],
+            "properties": {
+              "name": "Dustin",
+              "from": "California",
+              "hobby": "surfing"
+            }
+          }
+        }
+      ],
+      "length": 1
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 13,
+        "labels": [
+          "Person"
+        ],
+        "properties": {
+          "name": "Bill",
+          "title": "author",
+          "from": "England"
+        }
+      },
+      "end": {
+        "identity": 16,
+        "labels": [
+          "Person"
+        ],
+        "properties": {
+          "name": "Emmy",
+          "job": "data scientist",
+          "from": "Taiwan"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 13,
+            "labels": [
+              "Person"
+            ],
+            "properties": {
+              "name": "Bill",
+              "title": "author",
+              "from": "England"
+            }
+          },
+          "relationship": {
+            "identity": 270,
+            "start": 13,
+            "end": 16,
+            "type": "Friend",
+            "properties": {}
+          },
+          "end": {
+            "identity": 16,
+            "labels": [
+              "Person"
+            ],
+            "properties": {
+              "name": "Emmy",
+              "job": "data scientist",
+              "from": "Taiwan"
+            }
+          }
+        }
+      ],
+      "length": 1
+    }
+  }
+]
